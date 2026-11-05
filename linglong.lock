@@ -1,0 +1,39 @@
+dependencies:
+  - requested: org.deepin.base/25.2.2
+    resolved:
+      modules:
+        - binary
+        - develop
+      reference: main:org.deepin.base/25.2.2.8/unknown
+    type: base
+sources:
+  - resolved:
+      hash: sha256:5b221dc3fd6d151425b30534ede46fb7a90dc233a8659cba0372796b0a066547
+    source:
+      digest: sha256:5b221dc3fd6d151425b30534ede46fb7a90dc233a8659cba0372796b0a066547
+      kind: archive
+      name: erofs-utils
+      url: https://github.com/erofs/erofs-utils/archive/refs/tags/v1.8.6.tar.gz
+  - resolved:
+      hash: sha256:2d8ae87a4525fbfa1db5e5eb010ff6f38140627a7004554ed88411c1843d51b2
+    source:
+      digest: sha256:2d8ae87a4525fbfa1db5e5eb010ff6f38140627a7004554ed88411c1843d51b2
+      kind: archive
+      name: fuse
+      url: https://github.com/libfuse/libfuse/releases/download/fuse-3.17.1/fuse-3.17.1.tar.gz
+  - resolved:
+      hash: sha256:70c908e3a2397d195d64d606b886c9635b13a461beea70a6cc5317e0bb6e9589
+    source:
+      digest: sha256:70c908e3a2397d195d64d606b886c9635b13a461beea70a6cc5317e0bb6e9589
+      kind: archive
+      name: linyaps-box
+      url: https://github.com/OpenAtom-Linyaps/linyaps-box/archive/refs/tags/2.1.2.tar.gz
+  - resolved:
+      hash: git-commit:9c6f9e805a009f228b1b9c0052ee5bb59c6014d8
+    source:
+      commit: master
+      kind: git
+      name: linyaps
+      submodules: true
+      url: https://github.com/OpenAtom-Linyaps/linyaps.git
+version: 1
